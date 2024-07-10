@@ -1,0 +1,203 @@
+html{
+
+    height: 100%;
+
+}
+
+body{
+
+    height: 100%;
+    margin: 0;
+
+}
+
+#container{
+
+    height: 100%;
+
+}
+
+#topoTitulo{
+
+    height: 30%;
+    background-color: #78459E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+    #imgTopo{
+
+        height: 70%;
+
+    }
+
+#meioPerguntas{
+
+    height: 27%;
+    display: flex;
+
+}
+
+    .cardsPerguntas{
+
+        height: 100%;
+        width: 23%;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .lblTituloPergunta{
+
+        font-size: 30px;
+        font-weight: bolder;
+        color: #FFFFFF;
+        font-family: Cambria;
+        margin: 5px;
+
+    }
+
+    .spnLabel{
+
+        background-color: #78459E;
+        height: 50px;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .lblTextoPergunta{
+
+        text-align: center;
+        font-size: 23px;
+        color: #323233;
+        font-weight: bolder;
+        font-family: Cambria;
+        margin: 25px;
+
+    }
+
+    #gapEsquerda{
+
+        height: 100%;
+        width: 10%;
+        background-color: #78459E;
+
+    }
+
+    #gapMeioUm{
+
+        height: 100%;
+        width: 5.5%;
+        background-color: #78459E;
+
+    }
+
+    #gapMeioDois{
+
+        height: 100%;
+        width: 5.5%;
+        background-color: #78459E;
+
+    }
+
+    #gapDireita{
+
+        height: 100%;
+        width: 10%;
+        background-color: #78459E;
+
+    }
+
+
+#meioLabels{
+
+    height: 10%;
+    background-color: #78459E;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-family: Cambria;
+
+}
+
+#meioSelects{
+
+    height: 15%;
+    background-color: #78459E;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+    .selectsRespostas{
+
+        font-size: 20px;
+        text-align: center;
+        height: 35px;
+        width: 250px;
+
+    }
+
+#baixoResultado{
+
+    height: 18%;
+    background-color: #78459E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+    .iconesBaixo{
+
+        height: 40%;
+        margin: 15px;
+
+    }
+
+    #lblPontos{
+
+        font-size: 25px;
+        color: #FFFFFF;
+        font-weight: bolder;
+        font-family: Cambria;
+
+    }
+
+    #inptPontos{
+
+        height: 35px;
+        width: 80px;
+        margin: 15px;
+        text-align: center;
+        font-size: 23px;
+        color: #323233;
+        font-weight: bolder;
+        font-family: Cambria;
+        
+    }
+
+    #btnFinaliza{
+
+        height: 40px;
+        width: 220px;
+        border: solid 0px;
+        font-size: 25px;
+        background-color: #C8BFE7;
+        color: #323233;
+        font-weight: bolder;
+        font-family: Cambria;
+        cursor: pointer;
+
+    }
