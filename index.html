@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icone.ico" type="image/x-icon">
+    <title>The Coolest Quizzz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- DIV Container - Para englobar as outras divs, tamanho total da página -->
+    <div id="container">
+
+        <!-- DIV Topo - Para o título e imagens -->
+        <div id="topoTitulo">
+
+            <img id="imgTopo" src="header.png">
+
+        </div>
+
+
+        <!-- DIV Perguntas - Para os cards de perguntas -->
+        <div id="meioPerguntas">
+
+            <div id="gapEsquerda"></div>
+
+            <div class="cardsPerguntas">
+
+                <span class="spnLabel"><label class="lblTituloPergunta">Pergunta 1</label></span>
+                <label class="lblTextoPergunta">Qual o ano de lançamento do desenho Rick & Morty?</label>
+
+            </div>
+
+            <div id="gapMeioUm"></div>
+
+            <div class="cardsPerguntas">
+
+                <span class="spnLabel"><label class="lblTituloPergunta">Pergunta 2</label></span>
+                <label class="lblTextoPergunta">Stray é um jogo indie estrelado por qual animal?</label>
+
+            </div>
+
+            <div id="gapMeioDois"></div>
+
+            <div class="cardsPerguntas">
+
+                <span class="spnLabel"><label class="lblTituloPergunta">Pergunta 3</label></span>
+                <label class="lblTextoPergunta">O Gambito da Rainha é uma série sobre qual esporte?</label>
+
+            </div>
+
+            <div id="gapDireita"></div>
+
+        </div>
+
+
+        <!-- DIV Labels - Para as labels informativas de escolha -->
+        <div id="meioLabels">
+
+            <label>Escolha sua resposta</label>
+            <label>Escolha sua resposta</label>
+            <label>Escolha sua resposta</label>
+
+        </div>
+
+
+        <!-- DIV Selects - Para os menus de select com as respostas -->
+        <div id="meioSelects">
+
+            <select id="selectPerguntaUm" class="selectsRespostas">
+
+                <option value="2">Resposta</option>
+                <option value="0">2010</option>
+                <option value="0">2016</option>
+                <option value="1">2013</option>
+
+            </select>
+
+            <select id="selectPerguntaDois" class="selectsRespostas">
+
+                <option value="2">Resposta</option>
+                <option value="0">Elefante</option>
+                <option value="0">Cachorro</option>
+                <option value="1">Gato</option>
+
+            </select>
+
+            <select id="selectPerguntaTres" class="selectsRespostas">
+
+                <option value="2">Resposta</option>
+                <option value="0">Basquete</option>
+                <option value="1">Xadrez</option>
+                <option value="0">Vôlei</option>
+
+            </select>
+
+        </div>
+
+
+        <!-- DIV Resultado - Para a pontuação, resultado e botão de gerar pontos -->
+        <div id="baixoResultado">
+
+            <img src="icone-esquerda.png" class="iconesBaixo">
+            <label id="lblPontos">Sua Pontuação</label>
+            <input id="inptPontos" readonly>
+            <button id="btnFinaliza" onclick="FinalizaQuiz()">Finalizar Quiz</button>
+            <img src="icone-direita.png" class="iconesBaixo">
+
+        </div>
+
+    </div>
+
+    <script src="lógica-quiz.js"></script>
+
+</body>
+</html>
